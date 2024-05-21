@@ -13,7 +13,7 @@ touch README.md
 
 ./src
 dotnet new --list
-dotnet new mvc -o DevApp.Web
+dotnet new mvc -o DevApp.Web --use-program-main
 dotnet new classlib -o DevApp.Core
 dotnet new classlib -o DevApp.Infrastructure
 
