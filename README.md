@@ -10,7 +10,7 @@ dotnet new globaljson --sdk-version [version]
 dotnet new gitignore
 dotnet new editorconfig
 touch README.md
-echo text README.md
+echo # My Online Store > README.md
 
 ./src
 dotnet new --list
